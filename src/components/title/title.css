@@ -1,0 +1,30 @@
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-family: "ziba", sans-serif;
+  text-align: center;
+
+  position: relative;
+  display: inline-block;
+}
+
+.title::after,
+.title::before {
+  content: "";
+
+  height: 4px;
+  background-color: var(--accent-yellow);
+  position: absolute;
+  top: 58%;
+  transform: translateY(-50%);
+}
+.title::after {
+  left: -60px;
+}
+
+.title::before {
+  right: -60px;
+}

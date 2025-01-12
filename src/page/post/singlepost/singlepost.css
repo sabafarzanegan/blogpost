@@ -1,0 +1,48 @@
+.single-post-container {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+  gap: 10px 14px;
+}
+
+.left-side {
+  overflow: hidden;
+  flex-grow: 1;
+  width: 355px;
+}
+
+.left-side img {
+  border-radius: 6px;
+  width: 100%;
+  overflow: hidden;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  justify-content: space-between;
+  padding: 5px 10px;
+  gap: 10px 0px;
+}
+
+.right-side h1 {
+  font-size: 2rem;
+}
+.info-authore {
+  display: flex;
+  align-items: center;
+  gap: 0px 5px;
+}
+.info-authore svg {
+  font-size: 1.1rem;
+  padding: 2px;
+  background: var(--accent-yellow);
+  border-radius: 100%;
+}
+
+.description {
+  line-height: 40px;
+  font-size: 1rem;
+}

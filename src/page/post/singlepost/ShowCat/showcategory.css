@@ -1,0 +1,25 @@
+.show-cat-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  overflow: hidden;
+}
+.show-cat-container img {
+  width: 30px;
+}
+.show-cat-container p {
+  color: #00224d;
+  font-family: "ziba";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.color-front {
+  background-color: #e0144c;
+}
+
+.color {
+  background-color: #fbfada;
+  border-radius: 10px;
+  margin-top: 20px;
+}

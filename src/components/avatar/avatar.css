@@ -1,0 +1,40 @@
+.profile-container {
+  position: relative;
+}
+.profile-links ul {
+}
+.profile-img {
+  cursor: pointer;
+}
+.profile-img img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.profile-links {
+  position: absolute;
+  padding: 10px 8px;
+  background-color: #f4e514;
+  color: black;
+  width: 160px;
+  top: 40px;
+  left: 0;
+  border-radius: 10px;
+}
+
+.profile-info {
+  background-color: #fbfada;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.signOutbtn {
+  background-color: rgb(248, 28, 28);
+  padding: 3px 8px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.profile-links a {
+  color: black;
+}

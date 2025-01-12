@@ -1,0 +1,31 @@
+.add-container {
+  width: 90%;
+  border: 1px solid var(--color-gray-400);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.add-container form {
+  margin: 0 auto;
+  padding: 10px;
+  height: 100%;
+}
+
+.add-container textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  max-height: 1000px;
+  height: 100%;
+  overflow-y: scroll;
+  color: black;
+}
+
+.add-container form button {
+  background-color: var(--accent-yellow);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

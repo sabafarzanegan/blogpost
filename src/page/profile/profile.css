@@ -1,0 +1,13 @@
+.item-user-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px 5px;
+  margin-top: 20px;
+}
+
+.item-user-link a {
+  background-color: var(--accent-yellow);
+  padding: 5px 10px;
+  border-radius: 6px;
+}

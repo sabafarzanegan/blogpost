@@ -1,0 +1,9 @@
+.cat-container {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.select-option {
+  border-radius: 10px;
+  overflow: hidden;
+}

@@ -1,0 +1,9 @@
+.allpost-container {
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+
+  display: grid;
+  gap: 8px 8px;
+}

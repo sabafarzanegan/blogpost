@@ -1,0 +1,35 @@
+.landing-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.landing-container h2 {
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 auto;
+}
+.landing-container span {
+  position: relative;
+
+  font-family: "ziba", sans-serif;
+  font-weight: 600;
+  color: var(--accent-yellow);
+}
+.landing-container span div {
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  width: 90px;
+  height: 90px;
+  z-index: -3;
+  background-color: var(--accent-yellow);
+  filter: blur(30px);
+  -webkit-filter: blur(45px);
+}
+.landingImg {
+  width: 100%;
+  height: 60%;
+}

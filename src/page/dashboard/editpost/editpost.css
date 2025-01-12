@@ -1,0 +1,11 @@
+.edit-container {
+  width: 100%;
+}
+.edit-container h2 {
+  font-family: "ziba";
+  font-size: 2rem;
+  color: var(--accent-yellow);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}

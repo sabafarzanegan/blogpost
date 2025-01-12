@@ -1,0 +1,13 @@
+.feature-blog {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.featured-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
