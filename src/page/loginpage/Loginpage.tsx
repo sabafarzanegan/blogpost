@@ -6,7 +6,10 @@ function Loginpage() {
     <>
       <h4 className="title-login">ورود</h4>
       <div className="login-container-page">
-        <SignIn fallbackRedirectUrl="/saveuser" signUpUrl="/register" />
+        <SignIn
+          fallbackRedirectUrl="https://blogpost-wm14.vercel.app/saveuser"
+          signUpUrl="/register"
+        />
       </div>
     </>
   );

@@ -35,6 +35,7 @@ function SaveUser() {
         if (!error) {
           navigate("/");
         }
+        console.log(error);
       } catch (error) {
         console.log(error);
       }
